@@ -20,8 +20,6 @@ body {
 
 .card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    height: 100%;
-    margin-bottom: 1rem; /* Add margin for spacing */
 }
 
 .card:hover {
@@ -48,10 +46,4 @@ body {
 .footer {
     background-color: #1e1e1e;
     color: #e0e0e0;
-}
-
-@media (max-width: 768px) {
-    .card {
-        margin-bottom: 5rem;
-    }
 }
